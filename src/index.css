@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1 {
+    @apply text-h1;
+  }
+
+  h2 {
+    @apply text-h2;
+  }
+
+  h3 {
+    @apply text-h3;
+  }
+
+  h4 {
+    @apply text-h4;
+  }
+
+  p {
+    @apply text-body;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
+/* Melhorias de rolagem e transições */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Otimizações para dispositivos móveis */
+@media (max-width: 768px) {
+  .transform-gpu {
+    transform: translateZ(0);
+  }
+}
+
+/* Melhorias de desempenho para animações */
+.will-change-opacity {
+  will-change: opacity;
+}
+
+.will-change-transform {
+  will-change: transform;
+}
+
+/* Transições suaves para links e botões */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Melhorias para rolagem suave em iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
