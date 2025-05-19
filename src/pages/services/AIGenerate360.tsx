@@ -294,7 +294,7 @@ const AIGenerate360 = () => {
             {[
               { name: "Leonardo Barbosa", company: "Invest Minas - Governo de Minas Gerais", quote: "A palestra sensibilizou nossos colaboradores sobre a importância da IA. Semanas depois, a equipe já buscava ferramentas para melhorar resultados.", imgSrc: "/images/leonardobarbosa.png" }, // Replace with actual image path
               { name: "Paulo Henrique, CEO", company: "Empresa LoCX", quote: "Capacitação e consultoria elevaram drasticamente nossa produtividade. Entregamos soluções mais eficientes e personalizadas.", imgSrc: "/images/paulolocx.jpg" }, // Replace with actual image path
-              { name: "Lucas, Coordenador de Marketing", company: "ACIUB - Associação Comercial e Industrial de Uberlândia-MG", quote: "Didática incrível e consultoria sob medida resolveram nossas maiores dores; investimento mais que válido.", imgSrc: "/images/lucasaciub.png" }, // Replace with actual image path
+              { name: "Lucas, Coordenador de Marketing", company: "ACIUB - Associação Comercial e Industrial de Uberlândia-MG", quote: "Didática incrível e consultoria sob medida resolveram nossas maiores dores; investimento mais que válido.", imgSrc: "/images/lucasaciub10.png" }, // Replace with actual image path
               { name: "Frederico, Consultor de Negócios", company: "Sebrae", quote: "As palestras de Alexandre Calmon no evento Varejo + Experience, organizado pelo Sebrae-MG, impactaram cerca de 600 pessoas por cidade.", imgSrc: "/images/fredsebrae.png" } // Replace with actual image path
             ].map((testimonial, index) => (
               <motion.div key={index} variants={fadeIn} className="bg-white p-6 rounded-lg shadow-md flex flex-col">
@@ -471,7 +471,7 @@ const AIGenerate360 = () => {
             {/* Logo no footer - SUBSTITUÍDO */}
             <div className="flex justify-center mb-6">
               <img 
-                src="/images/logogrupocalmon.png" 
+                src="/images/logogrupocalmon10.png" 
                 alt="Logo Grupo Calmon" 
                 className="h-16" // Pode querer uma altura um pouco menor para o footer
               />
