@@ -2,7 +2,7 @@ import React from "react";
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, EffectFade, Navigation } from 'swiper/modules';
-import { defaultTestimonials } from "../../data/testimonials";
+import { TESTIMONIALS as defaultTestimonials } from "../../data/testimonials";
 import Button from "../ui/Button";
 
 // Import Swiper styles
