@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="images/logogrupocalmonfundobranco10.png" 
+                src="/images/logogrupocalmonfundobranco10.png" 
                 alt="Grupo Calmon" 
                 className="h-14 w-auto"
               />
@@ -64,6 +64,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-orange-600 transition"
+                aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </a>
@@ -72,6 +73,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-orange-600 transition"
+                aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
@@ -80,6 +82,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-orange-600 transition"
+                aria-label="YouTube"
               >
                 <Youtube className="h-5 w-5" />
               </a>

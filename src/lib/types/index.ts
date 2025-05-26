@@ -14,7 +14,7 @@ export interface Address {
 export interface SocialLinks {
   instagram: string;
   linkedin: string;
-  facebook: string;
+  youtube: string;
 }
 
 export interface CompanyInfo {
