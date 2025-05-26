@@ -6,7 +6,7 @@ import SectionWrapper from '../components/ui/SectionWrapper';
 
 const Services = () => {
   return (
-    <div className="pt-20">
+    <div>
       <SectionWrapper><ServicesHero /></SectionWrapper>
       <SectionWrapper delay={0.2}><ServicesList /></SectionWrapper>
       <SectionWrapper delay={0.4}><ServicesCTA /></SectionWrapper>

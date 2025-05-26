@@ -5,7 +5,7 @@ import SectionWrapper from '../components/ui/SectionWrapper';
 
 const About = () => {
   return (
-    <div className="pt-20">
+    <div>
       <SectionWrapper><AboutHero /></SectionWrapper>
       <SectionWrapper delay={0.2}><AboutMission /></SectionWrapper>
     </div>

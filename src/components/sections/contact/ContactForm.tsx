@@ -19,6 +19,7 @@ const ContactForm = () => {
                   type="text"
                   id="name"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500"
+                  aria-required="true"
                 />
               </div>
               <div>
@@ -29,6 +30,7 @@ const ContactForm = () => {
                   type="email"
                   id="email"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500"
+                  aria-required="true"
                 />
               </div>
               <div>
@@ -39,6 +41,7 @@ const ContactForm = () => {
                   type="tel"
                   id="phone"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500"
+                  aria-required="true"
                 />
               </div>
               <div>
@@ -49,6 +52,7 @@ const ContactForm = () => {
                   id="message"
                   rows={4}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-500 focus:ring-orange-500"
+                  aria-required="true"
                 ></textarea>
               </div>
               <button
@@ -89,6 +93,7 @@ const ContactForm = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 p-3 rounded-full hover:bg-gray-200 transition"
+                    aria-label="Instagram"
                   >
                     <Instagram className="h-6 w-6 text-gray-600" />
                   </a>
@@ -97,6 +102,7 @@ const ContactForm = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 p-3 rounded-full hover:bg-gray-200 transition"
+                    aria-label="LinkedIn"
                   >
                     <Linkedin className="h-6 w-6 text-gray-600" />
                   </a>
@@ -105,6 +111,7 @@ const ContactForm = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 p-3 rounded-full hover:bg-gray-200 transition"
+                    aria-label="YouTube"
                   >
                     <Youtube className="h-6 w-6 text-gray-600" />
                   </a>

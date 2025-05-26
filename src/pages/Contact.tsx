@@ -5,7 +5,7 @@ import SectionWrapper from '../components/ui/SectionWrapper';
 
 const Contact = () => {
   return (
-    <div className="pt-20">
+    <div>
       <SectionWrapper><ContactHero /></SectionWrapper>
       <SectionWrapper delay={0.2}><ContactForm /></SectionWrapper>
     </div>

@@ -5,7 +5,7 @@ import SectionWrapper from '../components/ui/SectionWrapper';
 
 const Blog = () => {
   return (
-    <div className="pt-20">
+    <div>
       <SectionWrapper><BlogHero /></SectionWrapper>
       <SectionWrapper delay={0.2}><BlogPosts /></SectionWrapper>
     </div>
